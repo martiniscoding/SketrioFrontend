@@ -6,12 +6,15 @@ import { motion } from 'motion/react';
 function Footer() {
   return (
     <div
+    //satyam what is yourt name how are yoi doing no obne cares s
    
      className='bg-[url("/footer.jpg")]  w-full h-70 mt-50 px-70  py-10 flex justify-between overflow-hidden'>
        <div className='bg-white px=3 py-1 rounded-xl w-1/3 flex flex-col'>
         <span className='text-3xl font-black'>Skettrio</span>
        <div className='flex gap-4 mt-3'>
-         <span className='text-xl p-2 bg-green-200 rounded-full w-9'><FaGithub></FaGithub></span>
+         <span className='text-xl p-2 bg-green-200 rounded-full w-9' onClick={()=>{
+          window.open("https://github.com/martiniscoding/SketrioFrontend")
+         }}><FaGithub></FaGithub></span>
           <span className='text-xl p-2 bg-green-200 rounded-full w-9'><FaLinkedin></FaLinkedin></span>
            <span className='text-xl p-2 bg-green-200 rounded-full w-9'><FaXTwitter></FaXTwitter></span>
             <span className='text-xl p-2 bg-green-200 rounded-full w-9'></span>
